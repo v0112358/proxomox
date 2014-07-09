@@ -15,5 +15,5 @@ Updated kernel packages that fix three security issues. But I'm using proxmox 2.
 - cp /boot/config-2.6.32-21-pve ./config
 - make clean
 - make
-- dpgk -i pve-*.deb
+- dpkg -i pve-*.deb
 - reboot server and make sure your server running pve-kernel-2.6.32-30.
