@@ -11,7 +11,7 @@ Updated kernel packages that fix three security issues. But I'm using proxmox 2.
 - git clone git://git.proxmox.com/git/pve-kernel-2.6.32.git
 - apt-get install libncurses5-dev rpm2cpio lintian fakeroot unzip -y
 - cd pve-kernel-2.6.32
-- Download Makefile above or change gcc version to 4.4.5
+- Download Makefile above or edit Makefile like "gcc --version|grep "4\.4\.5" || false".
 - cp /boot/config-2.6.32-21-pve ./config
 - make clean
 - make
